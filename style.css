@@ -82,13 +82,18 @@ form div {
 }
 
 form > div > button {
-    
+    background:linear-gradient(to left, 
+    #36393a,#c0c5c9,#36393a);
     color: white;
     width: 100%;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-
+    background-size: 200%;
+    transition: .5s;
+}
+form > div > button:hover {
+    background-position: right;
 }
 form > div > input {
     padding-left: 10px;
